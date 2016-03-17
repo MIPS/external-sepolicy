@@ -465,6 +465,7 @@ neverallow {
   -appdomain
   -installd
   -uncrypt  # TODO: see if we can remove
+  -zygote
 } app_data_file:lnk_file read;
 
 neverallow {
